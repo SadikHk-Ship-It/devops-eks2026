@@ -29,7 +29,7 @@ public class MetricsConfig {
 
             @Override
             public String namespace() {
-                return "";
+                return "Wishifai"; // added "Wishifi" to empty area
             }
 
             @Override

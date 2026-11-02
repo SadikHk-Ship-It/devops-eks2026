@@ -1,0 +1,1891 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.concurrent.phase.time.avg",
+            "Dimensions": [
+                {
+                    "Name": "action",
+                    "Value": "end of concurrent GC pause"
+                },
+                {
+                    "Name": "cause",
+                    "Value": "No GC"
+                },
+                {
+                    "Name": "gc",
+                    "Value": "G1 Concurrent GC"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.concurrent.phase.time.max",
+            "Dimensions": [
+                {
+                    "Name": "action",
+                    "Value": "end of concurrent GC pause"
+                },
+                {
+                    "Name": "cause",
+                    "Value": "No GC"
+                },
+                {
+                    "Name": "gc",
+                    "Value": "G1 Concurrent GC"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.max",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "POST"
+                },
+                {
+                    "Name": "error",
+                    "Value": "none"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "/api/analyze"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "SUCCESS"
+                },
+                {
+                    "Name": "status",
+                    "Value": "200"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.concurrent.phase.time.count",
+            "Dimensions": [
+                {
+                    "Name": "action",
+                    "Value": "end of concurrent GC pause"
+                },
+                {
+                    "Name": "cause",
+                    "Value": "No GC"
+                },
+                {
+                    "Name": "gc",
+                    "Value": "G1 Concurrent GC"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.pause.sum",
+            "Dimensions": [
+                {
+                    "Name": "action",
+                    "Value": "end of minor GC"
+                },
+                {
+                    "Name": "cause",
+                    "Value": "Metadata GC Threshold"
+                },
+                {
+                    "Name": "gc",
+                    "Value": "G1 Young Generation"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.avg",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "POST"
+                },
+                {
+                    "Name": "error",
+                    "Value": "none"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "/api/analyze"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "SUCCESS"
+                },
+                {
+                    "Name": "status",
+                    "Value": "200"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.pause.sum",
+            "Dimensions": [
+                {
+                    "Name": "action",
+                    "Value": "end of minor GC"
+                },
+                {
+                    "Name": "cause",
+                    "Value": "G1 Evacuation Pause"
+                },
+                {
+                    "Name": "gc",
+                    "Value": "G1 Young Generation"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.pause.max",
+            "Dimensions": [
+                {
+                    "Name": "action",
+                    "Value": "end of minor GC"
+                },
+                {
+                    "Name": "cause",
+                    "Value": "G1 Evacuation Pause"
+                },
+                {
+                    "Name": "gc",
+                    "Value": "G1 Young Generation"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.pause.avg",
+            "Dimensions": [
+                {
+                    "Name": "action",
+                    "Value": "end of minor GC"
+                },
+                {
+                    "Name": "cause",
+                    "Value": "Metadata GC Threshold"
+                },
+                {
+                    "Name": "gc",
+                    "Value": "G1 Young Generation"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.pause.avg",
+            "Dimensions": [
+                {
+                    "Name": "action",
+                    "Value": "end of minor GC"
+                },
+                {
+                    "Name": "cause",
+                    "Value": "G1 Evacuation Pause"
+                },
+                {
+                    "Name": "gc",
+                    "Value": "G1 Young Generation"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.pause.count",
+            "Dimensions": [
+                {
+                    "Name": "action",
+                    "Value": "end of minor GC"
+                },
+                {
+                    "Name": "cause",
+                    "Value": "Metadata GC Threshold"
+                },
+                {
+                    "Name": "gc",
+                    "Value": "G1 Young Generation"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.active.duration",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "POST"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "UNKNOWN"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "SUCCESS"
+                },
+                {
+                    "Name": "status",
+                    "Value": "200"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.pause.max",
+            "Dimensions": [
+                {
+                    "Name": "action",
+                    "Value": "end of minor GC"
+                },
+                {
+                    "Name": "cause",
+                    "Value": "Metadata GC Threshold"
+                },
+                {
+                    "Name": "gc",
+                    "Value": "G1 Young Generation"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.active.activeTasks",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "POST"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "UNKNOWN"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "SUCCESS"
+                },
+                {
+                    "Name": "status",
+                    "Value": "200"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.pause.count",
+            "Dimensions": [
+                {
+                    "Name": "action",
+                    "Value": "end of minor GC"
+                },
+                {
+                    "Name": "cause",
+                    "Value": "G1 Evacuation Pause"
+                },
+                {
+                    "Name": "gc",
+                    "Value": "G1 Young Generation"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.concurrent.phase.time.sum",
+            "Dimensions": [
+                {
+                    "Name": "action",
+                    "Value": "end of concurrent GC pause"
+                },
+                {
+                    "Name": "cause",
+                    "Value": "No GC"
+                },
+                {
+                    "Name": "gc",
+                    "Value": "G1 Concurrent GC"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.count",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "POST"
+                },
+                {
+                    "Name": "error",
+                    "Value": "none"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "/api/analyze"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "SUCCESS"
+                },
+                {
+                    "Name": "status",
+                    "Value": "200"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.sum",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "POST"
+                },
+                {
+                    "Name": "error",
+                    "Value": "none"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "/api/analyze"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "SUCCESS"
+                },
+                {
+                    "Name": "status",
+                    "Value": "200"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "logback.events.count",
+            "Dimensions": [
+                {
+                    "Name": "level",
+                    "Value": "warn"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "tomcat.sessions.active.max.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.used.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "heap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "G1 Eden Space"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.threads.states.value",
+            "Dimensions": [
+                {
+                    "Name": "state",
+                    "Value": "blocked"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "application.started.time.value",
+            "Dimensions": [
+                {
+                    "Name": "main.application.class",
+                    "Value": "no.pgr301.exam.ExamApplication"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "process.files.max.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "system.load.average.1m.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.usage.after.gc.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "heap"
+                },
+                {
+                    "Name": "pool",
+                    "Value": "long-lived"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "logback.events.count",
+            "Dimensions": [
+                {
+                    "Name": "level",
+                    "Value": "debug"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "tomcat.sessions.rejected.count",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.buffer.total.capacity.value",
+            "Dimensions": [
+                {
+                    "Name": "id",
+                    "Value": "direct"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "process.start.time.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "disk.total.value",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/workspaces/pg301-eksamen-2026/."
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.committed.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "heap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "G1 Survivor Space"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "logback.events.count",
+            "Dimensions": [
+                {
+                    "Name": "level",
+                    "Value": "error"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "executor.queued.value",
+            "Dimensions": [
+                {
+                    "Name": "name",
+                    "Value": "applicationTaskExecutor"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "application.ready.time.value",
+            "Dimensions": [
+                {
+                    "Name": "main.application.class",
+                    "Value": "no.pgr301.exam.ExamApplication"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "process.cpu.time.count",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.buffer.memory.used.value",
+            "Dimensions": [
+                {
+                    "Name": "id",
+                    "Value": "mapped"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "executor.completed.count",
+            "Dimensions": [
+                {
+                    "Name": "name",
+                    "Value": "applicationTaskExecutor"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.sum",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "GET"
+                },
+                {
+                    "Name": "error",
+                    "Value": "none"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "/**"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "CLIENT_ERROR"
+                },
+                {
+                    "Name": "status",
+                    "Value": "404"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.count",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "GET"
+                },
+                {
+                    "Name": "error",
+                    "Value": "none"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "/**"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "CLIENT_ERROR"
+                },
+                {
+                    "Name": "status",
+                    "Value": "404"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "process.cpu.usage.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.buffer.count.value",
+            "Dimensions": [
+                {
+                    "Name": "id",
+                    "Value": "mapped"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.buffer.total.capacity.value",
+            "Dimensions": [
+                {
+                    "Name": "id",
+                    "Value": "mapped"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.max.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "Metaspace"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.used.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "heap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "G1 Old Gen"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "tomcat.sessions.active.current.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "process.files.open.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.threads.daemon.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.used.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "heap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "G1 Survivor Space"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.buffer.memory.used.value",
+            "Dimensions": [
+                {
+                    "Name": "id",
+                    "Value": "direct"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "executor.pool.size.value",
+            "Dimensions": [
+                {
+                    "Name": "name",
+                    "Value": "applicationTaskExecutor"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.buffer.memory.used.value",
+            "Dimensions": [
+                {
+                    "Name": "id",
+                    "Value": "mapped - 'non-volatile memory'"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.max.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "heap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "G1 Old Gen"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.committed.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "CodeCache"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "tomcat.sessions.created.count",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.max.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "CodeCache"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.committed.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "Compressed Class Space"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "logback.events.count",
+            "Dimensions": [
+                {
+                    "Name": "level",
+                    "Value": "info"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "tomcat.sessions.alive.max.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.committed.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "Metaspace"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.max.data.size.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.committed.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "heap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "G1 Eden Space"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.active.activeTasks",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "GET"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "UNKNOWN"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "SUCCESS"
+                },
+                {
+                    "Name": "status",
+                    "Value": "200"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.max.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "heap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "G1 Eden Space"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.buffer.count.value",
+            "Dimensions": [
+                {
+                    "Name": "id",
+                    "Value": "mapped - 'non-volatile memory'"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.max.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "Compressed Class Space"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.max",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "GET"
+                },
+                {
+                    "Name": "error",
+                    "Value": "none"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "/**"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "CLIENT_ERROR"
+                },
+                {
+                    "Name": "status",
+                    "Value": "404"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.threads.live.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.threads.states.value",
+            "Dimensions": [
+                {
+                    "Name": "state",
+                    "Value": "new"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.live.data.size.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.threads.states.value",
+            "Dimensions": [
+                {
+                    "Name": "state",
+                    "Value": "timed-waiting"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "executor.queue.remaining.value",
+            "Dimensions": [
+                {
+                    "Name": "name",
+                    "Value": "applicationTaskExecutor"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "disk.free.value",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/workspaces/pg301-eksamen-2026/."
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "tomcat.sessions.expired.count",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "system.cpu.usage.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.threads.peak.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.active.duration",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "GET"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "UNKNOWN"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "SUCCESS"
+                },
+                {
+                    "Name": "status",
+                    "Value": "200"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.classes.unloaded.count",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.max.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "heap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "G1 Survivor Space"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "logback.events.count",
+            "Dimensions": [
+                {
+                    "Name": "level",
+                    "Value": "trace"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.used.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "CodeCache"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.buffer.total.capacity.value",
+            "Dimensions": [
+                {
+                    "Name": "id",
+                    "Value": "mapped - 'non-volatile memory'"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.compilation.time.count",
+            "Dimensions": [
+                {
+                    "Name": "compiler",
+                    "Value": "HotSpot 64-Bit Tiered Compilers"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.overhead.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.threads.started.count",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.threads.states.value",
+            "Dimensions": [
+                {
+                    "Name": "state",
+                    "Value": "runnable"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.used.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "Metaspace"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "executor.pool.max.value",
+            "Dimensions": [
+                {
+                    "Name": "name",
+                    "Value": "applicationTaskExecutor"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "process.uptime.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.avg",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "GET"
+                },
+                {
+                    "Name": "error",
+                    "Value": "none"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "/**"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "CLIENT_ERROR"
+                },
+                {
+                    "Name": "status",
+                    "Value": "404"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "executor.pool.core.value",
+            "Dimensions": [
+                {
+                    "Name": "name",
+                    "Value": "applicationTaskExecutor"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.committed.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "heap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "G1 Old Gen"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.memory.promoted.count",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.info.value",
+            "Dimensions": [
+                {
+                    "Name": "vendor",
+                    "Value": "Microsoft"
+                },
+                {
+                    "Name": "runtime",
+                    "Value": "OpenJDK Runtime Environment"
+                },
+                {
+                    "Name": "version",
+                    "Value": "21.0.13.0.2+1-LTS"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.memory.allocated.count",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.threads.states.value",
+            "Dimensions": [
+                {
+                    "Name": "state",
+                    "Value": "terminated"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.used.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "Compressed Class Space"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "executor.active.value",
+            "Dimensions": [
+                {
+                    "Name": "name",
+                    "Value": "applicationTaskExecutor"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.buffer.count.value",
+            "Dimensions": [
+                {
+                    "Name": "id",
+                    "Value": "direct"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.threads.states.value",
+            "Dimensions": [
+                {
+                    "Name": "state",
+                    "Value": "waiting"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.classes.loaded.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "system.cpu.count.value",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.max",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "HEAD"
+                },
+                {
+                    "Name": "error",
+                    "Value": "none"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "/**"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "CLIENT_ERROR"
+                },
+                {
+                    "Name": "status",
+                    "Value": "404"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.sum",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "HEAD"
+                },
+                {
+                    "Name": "error",
+                    "Value": "none"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "/**"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "CLIENT_ERROR"
+                },
+                {
+                    "Name": "status",
+                    "Value": "404"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.active.duration",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "HEAD"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "UNKNOWN"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "SUCCESS"
+                },
+                {
+                    "Name": "status",
+                    "Value": "200"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.count",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "HEAD"
+                },
+                {
+                    "Name": "error",
+                    "Value": "none"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "/**"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "CLIENT_ERROR"
+                },
+                {
+                    "Name": "status",
+                    "Value": "404"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.avg",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "HEAD"
+                },
+                {
+                    "Name": "error",
+                    "Value": "none"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "/**"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "CLIENT_ERROR"
+                },
+                {
+                    "Name": "status",
+                    "Value": "404"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.active.activeTasks",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "HEAD"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "UNKNOWN"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "SUCCESS"
+                },
+                {
+                    "Name": "status",
+                    "Value": "200"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "disk.total.value",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/app/."
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.max.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "CodeHeap 'profiled nmethods'"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.used.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "CodeHeap 'non-profiled nmethods'"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.committed.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "CodeHeap 'profiled nmethods'"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.used.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "CodeHeap 'non-nmethods'"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.max.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "CodeHeap 'non-nmethods'"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.info.value",
+            "Dimensions": [
+                {
+                    "Name": "vendor",
+                    "Value": "Eclipse Adoptium"
+                },
+                {
+                    "Name": "runtime",
+                    "Value": "OpenJDK Runtime Environment"
+                },
+                {
+                    "Name": "version",
+                    "Value": "21.0.13+9-LTS"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.max.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "CodeHeap 'non-profiled nmethods'"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.used.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "CodeHeap 'profiled nmethods'"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "disk.free.value",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/app/."
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.committed.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "CodeHeap 'non-profiled nmethods'"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.memory.committed.value",
+            "Dimensions": [
+                {
+                    "Name": "area",
+                    "Value": "nonheap"
+                },
+                {
+                    "Name": "id",
+                    "Value": "CodeHeap 'non-nmethods'"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.pause.max",
+            "Dimensions": [
+                {
+                    "Name": "action",
+                    "Value": "end of minor GC"
+                },
+                {
+                    "Name": "cause",
+                    "Value": "G1 Humongous Allocation"
+                },
+                {
+                    "Name": "gc",
+                    "Value": "G1 Young Generation"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.pause.avg",
+            "Dimensions": [
+                {
+                    "Name": "action",
+                    "Value": "end of minor GC"
+                },
+                {
+                    "Name": "cause",
+                    "Value": "G1 Humongous Allocation"
+                },
+                {
+                    "Name": "gc",
+                    "Value": "G1 Young Generation"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "disk.free.value",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/workspaces/devops-eks2026/."
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "disk.total.value",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/workspaces/devops-eks2026/."
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.pause.count",
+            "Dimensions": [
+                {
+                    "Name": "action",
+                    "Value": "end of minor GC"
+                },
+                {
+                    "Name": "cause",
+                    "Value": "G1 Humongous Allocation"
+                },
+                {
+                    "Name": "gc",
+                    "Value": "G1 Young Generation"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "jvm.gc.pause.sum",
+            "Dimensions": [
+                {
+                    "Name": "action",
+                    "Value": "end of minor GC"
+                },
+                {
+                    "Name": "cause",
+                    "Value": "G1 Humongous Allocation"
+                },
+                {
+                    "Name": "gc",
+                    "Value": "G1 Young Generation"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.sum",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "GET"
+                },
+                {
+                    "Name": "error",
+                    "Value": "none"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "/api/health"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "SUCCESS"
+                },
+                {
+                    "Name": "status",
+                    "Value": "200"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.max",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "GET"
+                },
+                {
+                    "Name": "error",
+                    "Value": "none"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "/api/health"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "SUCCESS"
+                },
+                {
+                    "Name": "status",
+                    "Value": "200"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.count",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "GET"
+                },
+                {
+                    "Name": "error",
+                    "Value": "none"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "/api/health"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "SUCCESS"
+                },
+                {
+                    "Name": "status",
+                    "Value": "200"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "http.server.requests.avg",
+            "Dimensions": [
+                {
+                    "Name": "exception",
+                    "Value": "none"
+                },
+                {
+                    "Name": "method",
+                    "Value": "GET"
+                },
+                {
+                    "Name": "error",
+                    "Value": "none"
+                },
+                {
+                    "Name": "uri",
+                    "Value": "/api/health"
+                },
+                {
+                    "Name": "outcome",
+                    "Value": "SUCCESS"
+                },
+                {
+                    "Name": "status",
+                    "Value": "200"
+                }
+            ]
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "wishifai.rekognition.latency.max",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "wishifai.rekognition.latency.avg",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "wishifai.rekognition.latency.sum",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "wishifai.rekognition.latency.count",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "wishifai.bedrock.latency.count",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "wishifai.suggestions.generated.count",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "wishifai.bedrock.latency.avg",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "wishifai.bedrock.latency.max",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Wishifai",
+            "MetricName": "wishifai.bedrock.latency.sum",
+            "Dimensions": []
+        }
+    ]
+}

@@ -1,6 +1,9 @@
 package no.pgr301.exam.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.micrometer.core.instrument.Counter;
+import io.micrometer.core.instrument.MeterRegistry;
+import io.micrometer.core.instrument.Timer;
 import no.pgr301.exam.model.GiftAnalysis;
 import no.pgr301.exam.model.GiftSuggestion;
 import org.springframework.beans.factory.annotation.Value;
@@ -24,20 +27,24 @@ public class BedrockService {
 
     private final BedrockRuntimeClient client;
     private final String modelId;
+    private final MeterRegistry registry;
 
-    public BedrockService(BedrockRuntimeClient client,
-                          @Value("${app.bedrock.model-id}") String modelId) {
+    public BedrockService(
+            BedrockRuntimeClient client,
+            @Value("${app.bedrock.model-id}") String modelId,
+            MeterRegistry registry) {
+
         this.client = client;
         this.modelId = modelId;
+        this.registry = registry;
     }
 
     /**
      * Denne måten å lage prompt på kalles "chain-of-thought" og kan være veldig effektivt
      * Dette er også et eksempel på negative prompting
-     * @param labels
-     * @return
      */
     public GiftAnalysis suggestGifts(List<String> labels) {
+
         String prompt = """
                 Du er en gaveassistent. Du får en liste med objekter som Rekognition
                 oppdaget i et bilde av et rom eller en gjenstand. Oppgaven din er å
@@ -86,16 +93,36 @@ public class BedrockService {
                 }
                 """.formatted(String.join(", ", labels));
 
-        ConverseResponse resp = client.converse(ConverseRequest.builder()
-                .modelId(modelId)
-                .messages(Message.builder()
-                        .role(ConversationRole.USER)
-                        .content(ContentBlock.fromText(prompt))
-                        .build())
-                .build());
+        Timer.Sample sample = Timer.start(registry);
+
+        ConverseResponse resp = client.converse(
+                ConverseRequest.builder()
+                        .modelId(modelId)
+                        .messages(
+                                Message.builder()
+                                        .role(ConversationRole.USER)
+                                        .content(ContentBlock.fromText(prompt))
+                                        .build()
+                        )
+                        .build()
+        );
+
+        sample.stop(
+                Timer.builder("wishifai.bedrock.latency")
+                        .description("Time spent calling AWS Bedrock")
+                        .register(registry)
+        );
 
         String text = resp.output().message().content().get(0).text();
-        return parseAnalysis(text);
+
+        GiftAnalysis analysis = parseAnalysis(text);
+
+        Counter.builder("wishifai.suggestions.generated")
+                .description("Number of generated gift suggestions")
+                .register(registry)
+                .increment(analysis.suggestions().size());
+
+        return analysis;
     }
 
     private GiftAnalysis parseAnalysis(String text) {
