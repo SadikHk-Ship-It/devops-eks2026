@@ -66,7 +66,7 @@ resource "aws_cloudwatch_dashboard" "wishifai" {
           ]
         }
       },
-            {
+      {
         type = "metric", x = 0, y = 12, width = 12, height = 6
         properties = {
           title  = "Applikasjon: JVM-minne brukt"
